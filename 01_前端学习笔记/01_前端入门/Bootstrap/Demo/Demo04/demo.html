@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo New York</title>
+	<meta charset="utf-8"> 
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style>
+    .fakeimg {
+        height: 200px;
+         background: #aaa;
+    }
+    .banner{
+    	background-image: url("newyork.jpg"); 	
+    	position: relative;
+    	filter: alpha(opacity=40);
+    }
+
+    h1, p{
+    	z-index: 99;
+    }
+    .jumbotron{
+    	margin-top: 10px;
+    }
+
+    .tab-pane{
+    	height: 120px;
+    }
+  </style>
+</head>
+<body>
+	<div class="jumbotron text-center banner">
+
+		<h1 style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,.8)">American Empire State Building</h1>
+		<p style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,.8)">Welcome to the United States!</p>
+		<div class="banner"></div>
+	</div>
+
+	<div class="navbar navbar-inverse" style="margin-top: -40px; border-radius: 0;">
+		<div class="container-fluid">
+			<div class="navbar-hearder">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar">1</span>
+					<span class="icon-bar">2</span>
+					<span class="icon-bar">3</span>
+				</button>
+				<a href="#" class="navbar-brand">Empire</a>
+			</div>	
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="Home"></a></li>
+					<li><a href="#">New York</a></li>
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Silicon Valley<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="">Twitter</a></li>
+							<li><a href="">Facebook</a></li>
+							<li><a href="">SpaceX</a></li>
+							<li class="divider"><a href=""></a></li>
+							<li><a href="">Tesla</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4">
+				<h2>Profile</h2>
+				<p>This is so high.</p>
+				<div class="fakeimg"></div>
+				<p>Introduction of this</p>
+				<h2>Links</h2>
+				<ul class="nav nav-pills nav-stacked">
+					<li class="active"><a href="">Links</a></li>
+					<li><a href="">London</a></li>
+					<li><a href="">Stockholme</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-8">
+				<h2>USA</h2>
+				<h5>Welcome to visit the USA</h5>
+				<div class="fakeimg">PIC</div>
+				<p>England boss Phil Neville said he was "ashamed" by Cameroon's behaviour after a World Cup last-16 victory he said "didn't feel like football".
+
+				The Lionesses booked a quarter-final spot against Norway after a 3-0 win.
+
+				But the game was marred by Cameroon's extraordinary reaction to two video assistant referee decisions and several poor challenges on England's players.
+
+				"I am completely and utterly ashamed of the opposition," Neville said.
+
+				'Very entertaining but for the wrong reasons' - the game that had everything
+				"When I started in management, I think it was Arsene Wenger that told me: The team mirror the manager.
+
+				"If that was my team - and it will never be any of my players - they would never play for England again, with that kind of behaviour.
+
+				"At times, we probably didn't know whether the game would continue</p>
+			
+
+				<h2>USA</h2>
+				<h5>Welcome to visit the USA</h5>
+				<div class="fakeimg">PIC</div>
+				<p>England boss Phil Neville said he was "ashamed" by Cameroon's behaviour after a World Cup last-16 victory he said "didn't feel like football".
+
+				The Lionesses booked a quarter-final spot against Norway after a 3-0 win.
+
+				But the game was marred by Cameroon's extraordinary reaction to two video assistant referee decisions and several poor challenges on England's players.
+
+				"I am completely and utterly ashamed of the opposition," Neville said.
+
+				'Very entertaining but for the wrong reasons' - the game that had everything
+				"When I started in management, I think it was Arsene Wenger that told me: The team mirror the manager.
+
+				"If that was my team - and it will never be any of my players - they would never play for England again, with that kind of behaviour.
+
+				"At times, we probably didn't know whether the game would continue</p>
+				<!-- button 按钮 -->
+				<button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Pop up Modal</button>	
+				<!-- 模态框 -->
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<!-- 头部 -->
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								<h4 class="modal-title" id="myModalLabel">模态框(Modal)标题</h4>
+							</div>
+							<!-- 内容 -->
+							<div class="modal-body">There is something should be written here.</div>
+							<!-- 底部 -->
+							<div class="modal-footer">
+								<button class="btn btn-default" data-dismiss="modal">关闭</button>
+								<button class="btn btn-primary">提交更改</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- 标签页 -->
+
+				<ul class="nav nav-tabs" style="margin-top: 20px;">
+					<li class="active"><a href="#hotel" data-toggle="tab">Hotel</a></li>
+					<li><a href="#service" data-toggle="tab">Service</a></li>
+					<li class="dropdown"><a href="#price" class="dropdown-toggle" data-toggle="dropdown">Price<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#1day"  data-toggle="tab">1-day</a></li>
+							<li><a href="#3day"  data-toggle="tab">3-day</a></li>
+							<li><a href="#aweek" data-toggle="tab">a week</a></li>
+						</ul>
+					</li>
+				</ul>
+
+				<div class="tab-content">
+					<div class="tab-pane fade in active" id="hotel">
+						<p>Hotel Visitez l' Empire State Building, l'un des monuments les plus reconnaissables et symboliques du monde. Érigé miraculeusement pendant la Grande Dépression, l'édifice lui-même symbolise l'espoir, la persévérance et la prospérité pour les nombreux visiteurs qui viennent le voir à New York.
+
+						Le passe New York Explorer est le meilleur choix pour un maximum d'économies et de flexibilité. Choisissez d'utiliser votre passe pour l'Empire State Building, puis consultez la liste d'autres attractions principales pour vos autres choix d'entrées Explorer Pass !
+						</p>
+					</div>
+
+					<div class="tab-pane fade" id="service">
+						L'Empire State Building est heureux de vous annoncer qu'une nouvelle entrée située sur la 34e rue (34th Street) est accessible aux visiteurs de l'observatoire. Cette entrée à haute capacité a été créée pour augmenter le flux d'entrées et pour améliorer l'expérience globale des visiteurs.
+					</div>
+
+					<div class="tab-pane fade" id="1day">
+						Grâce à notre garantie sans risques, vous disposez d'un délai de 30 jours après la date d'achat pour nous retourner tout passe non activé et bénéficier d'un remboursement intégral. En savoir plus.
+					</div>
+					<div class="tab-pane fade" id="3day">
+						Grâce à notre garantie sans risques, vous disposez d'un délai de 30 jours après la date d'achat pour nous retourner tout passe non activé et bénéficier d'un remboursement intégral. En savoir plus.
+					</div>
+					<div class="tab-pane fade" id="aweek">
+						Grâce à notre garantie sans risques, vous disposez d'un délai de 30 jours après la date d'achat pour nous retourner tout passe non activé et bénéficier d'un remboursement intégral. En savoir plus.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="jumbotron text-center" style="margin-bottom: 0">
+		<p>Thanks for visiting!</p>
+	</div>
+</body>
+</html>

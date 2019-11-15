@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>demo00</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+	<link rel="stylesheet" type="text/css" href="css.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<img src="11.png" class="img-rounded">
+		<img src="11.png" class="img-circle">
+		<img src="11.png" class="img-thumbnail">
+	</div>
+
+	<p class="text-muted">你的青春是我眼中的热泪</p>
+	<p class="text-primary">你的青春是我眼中的热泪</p>
+	<p class="text-success">你的青春是我眼中的热泪</p>
+	<p class="text-info">你的青春是我眼中的热泪</p>
+	<p class="text-warnig">你的青春是我眼中的热泪</p>
+	<p class="text-danger">你的青春是我眼中的热泪</p>
+
+	<div class="container">
+		<button class="btn btn-primary">
+			<span class="glyphicon glyphicon-sort-by-order"></span>
+		おいしい</button>
+
+		<button class="btn btn-primary">
+			<span class="glyphicon glyphicon-user"></span> User
+		</button>
+	</div>
+
+
+	<div class="container">
+		<div class="dropdown">
+			<button type="button" class="btn btn-primary dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
+				点击我下拉<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+				<li role="presentation">
+					<a role="menuitem" tabindex="-1" href="#">Java</a>
+				</li>
+				<li role="presentation">
+					<a role="menuitem" tabindex="-1" href="#">Python AI</a>
+				</li>
+				<li role="presentation" class="divider">
+					
+				</li>
+				<li role="presentation">
+					<a role="menuitem" tabindex="-1" href="#">Scala</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<h3>两种下拉菜单</h3>
+	<div class="container">
+		<div class="btn-group">
+			<button class="btn btn-primary">有妖气</button>
+			<button class="btn btn-primary">有骚气</button>
+			<button class="btn btn-primary">有邪气</button>
+			<div class="dropdown">
+				<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">有屎气 <span class="caret"></span></button>
+				<ul class="dropdown-menu" role="menu">
+					<li><a href="#">好大的婊气</a></li>
+					<li><a href="#">好大的骚气</a></li>
+					<li class="divider"></li>
+					<li><a href="#">好大的妖气</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<form class="input-group" role="form">
+			
+
+			<input type="text" class="form-control" name="name">
+			<span class="input-group-addon">@</span>
+			<input type="text" class="form-control" style="width: 40%" name="address">
+		
+		</form>
+	</div>
+
+	<div class="container">
+		<form class="form-group" role="form">
+			<div class="row">
+				<div class="col-lg-4 col-md-4">
+					<div class="input-group"  >
+					<input type="text" class="form-control" name="" style="box-shadow: 2px 2px 3px rgba(0,0,0,.7)">
+					<span class="input-group-btn">
+						<button class="btn btn-default" type="button"  style="box-shadow: 2px 2px 3px rgba(0,0,0,.7); overflow: hidden;">Go!</button>
+					</span>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+
+	<div class="container">
+		<ul class="nav nav-bar">
+			<li><a href="#">Java</a></li>
+			<li><a href="#">Python</a></li>
+			<li><a href="#">Swift</a></li>
+			<li><a href="#">OC</a></li>
+		</ul>
+	</div>
+		<div class="container">
+		<ul class="nav nav-pills">
+			<li class="active"><a href="#">Java</a></li>
+			<li><a href="#">Python</a></li>
+			<li><a href="#">Swift</a></li>
+			<li><a href="#">OC</a></li>
+		</ul>
+
+	</div>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<div class="container">
+		<ul class="nav nav-tabs">
+			<li><a href="#">Java</a></li>
+			<li class="active"><a href="#">Python</a></li>
+			<li><a href="#">Swift</a></li>
+			<li>
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">OC</a>
+				<ul class="dropdown-menu">
+					<li><a href="">MacOS</a></li>
+					<li><a href="">iOS</a></li>
+					<li><a href="">CocoaKit</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<h2>导航栏</h2>
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container-fluid">
+		<div class="navbar-header">
+			<a href="#12"  class="navbar-brand">鸡骨教程</a>
+		</div>
+		<div>
+			<a href=""><p class="navbar-text">学校</p></a>
+		</div>
+		<div>
+			<ul class="nav navbar-nav">
+				<li class=""><a href="#12">iOS</a></li>
+				<li class="dropdown"><a  class="dropdown-toggle" data-toggle="dropdown" href="#">language <span class="caret"></span></a>
+				<ul class="dropdown-menu" >
+					<li><a href="">swift</a></li>
+					<li><a href="">OC</a></li>
+					<li><a href="">Python</a></li>
+					<li class="divider"></li>
+					<li><a href="">Unity3D</a></li>
+					<li><a href="">Java</a></li>
+				</ul>
+				</li>
+
+			</ul>
+					<form class="navbar-form navbar-left" role="search">
+			<div class="form-group">
+				<input type="text" name="keyword" class="form-control">
+
+			</div>
+			<button type="submit" class="btn btn-primary">搜索</button>
+		</form>
+		</div>
+		</div>
+	</nav>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+
+	<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand">British Honor</a>
+			</div>
+			<div>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="">Celtic</a></li>
+					<li class=""><a href="">Welsh</a></li>	
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="">English</a>
+						<ul class="dropdown-menu">
+							<li><a href="">RP</a></li>
+							<li><a href="">Cockney</a></li>
+							<li><a href="">AmE</a></li>
+						</ul>
+					</li>
+					<li class=""><a href="">Irish</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+</body>
+</html>
